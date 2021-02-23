@@ -22,4 +22,4 @@ sudo sed -i -e 's@\#master: salt@master: '$ip_address'@g' /etc/salt/minion
 sudo systemctl enable salt-minion.service
 sudo systemctl restart salt-minion.service
 ​
-set +x
+
